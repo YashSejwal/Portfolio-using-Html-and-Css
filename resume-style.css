@@ -1,0 +1,49 @@
+
+.navbar {
+    z-index: 9999;
+    /* background-color: #06002e; */
+}
+
+.navbar-brand img {
+    height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+    
+  }
+
+  h1{
+    line-height: 1;
+    display: inline-block;
+}
+/* .transparent-nav {
+    background-color: transparent !important;
+    box-shadow: none !important;
+} */
+
+#navbar_components{
+    justify-content: center;
+    /* color: #06002e; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar_components:hover{
+    color: #ff6eac;
+}
+
+.container {
+    max-height: 95vh;
+    margin:  auto;
+    padding: 50px 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+      
+}
+ 
+.main-bg{
+    width: 80%;
+    height: 90vh;
+}
+

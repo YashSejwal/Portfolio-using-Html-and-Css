@@ -1,0 +1,78 @@
+body{
+  background-color: #000;
+  background: url(/images/contact-us-background.png);
+
+}
+
+.contact-header{
+    color: rgb(255, 255, 255);
+    font-family: 'Monsterrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contact-sub-header{
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400 !important;
+}
+
+.contact-gif{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+  .contact_details{
+    background: #FFFFFF;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #FFFFFF 0%, #007FB5 34%, #FFFFFF 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Monsterrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contact-sub_details{
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+  }
+
+  .main_contact{
+    margin-bottom: 40px !important;
+    
+  }
